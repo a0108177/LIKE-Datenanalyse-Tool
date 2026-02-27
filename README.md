@@ -31,7 +31,7 @@ Zum Erstellen einer Windows-Anwendung als einzelne .exe-Datei:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --name "LIKE_Tool" --icon=icon.ico app.py
+pyinstaller --onefile --windowed --name "LIKE_Tool" app.py
 ```
 
 **Optionen:**
@@ -48,3 +48,4 @@ Die .exe befindet sich danach in `dist/LIKE_Tool.exe`.
 3. Ausgabeordner optional ändern
 4. "Analyse starten" klicken
 5. Excel-Datei wird mit Ergebnissen erstellt und kann direkt geöffnet werden
+
